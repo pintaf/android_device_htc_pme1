@@ -1,0 +1,3 @@
+allow system_server xbl_block_device:blk_file { ioctl read write lock append open watch watch_reads };
+allow system_server root_block_device:blk_file { ioctl read write lock append open watch watch_reads };
+allow system_server gpt_block_device:blk_file { ioctl read write lock append open watch watch_reads };
